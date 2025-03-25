@@ -1,0 +1,54 @@
+.scrollContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    padding: 20px;
+  }
+  
+  .imageWrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image:hover {
+    transform: scale(1.1);
+  }
+  
+  .special {
+    text-align: center;
+    color: #04446E;
+    font-size: 1.5rem;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .seeMoreButton {
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+  }
+  
+  .seeMoreButton:hover {
+    color:White;
+    background-color: #033559;
+  }
+  

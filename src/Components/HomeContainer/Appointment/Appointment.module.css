@@ -1,0 +1,108 @@
+
+/* Main container for the appointment section */
+.container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    padding: 50px;
+    /* background: #C6E8FF80; */
+    margin-top: 20px;
+  }
+  
+  /* Left Section (Appointment Info) */
+  .left {
+    flex: 1;
+    max-width: 450px;
+    padding: 20px;
+  }
+  
+  .left h3 {
+    margin: 0;
+    padding: 0px 40px;
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color:  #04446E;
+    background-color:#C6E8FF80; 
+  
+  }
+  
+  .left p {
+    font-size: 20px;
+  
+ 
+    margin-bottom: 12px;
+  }
+
+  .left > .far{
+    font-size: 30px;
+  
+  }
+  
+  /* Right Section (Appointment Form) */
+  .right {
+    flex: 1;
+    max-width: 450px;
+    font-size: 20px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  /* Form fields (input & select) */
+  .input, textarea{
+    width: 90%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focus effect for inputs */
+  .input:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Styled submit button */
+  .button {
+    width: 96%;
+    margin-top: 15px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #04446E;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background: linear-gradient(90deg, #0056b3, #003f7f);
+ 
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    .left, .right {
+      max-width: 100%;
+    }
+  }
+  

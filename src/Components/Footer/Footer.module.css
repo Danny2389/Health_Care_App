@@ -1,0 +1,121 @@
+.footer {
+    background-color: #c6e8ff;
+    color: black;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rightSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 15%;
+    width: 100%;
+    max-width: 1200px; /* Prevents excessive stretching on large screens */
+    text-align: left;
+  }
+  
+  /* First column - icons */
+  .iconsColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logoContainer {   
+     width: 125px;
+    height: 50px;
+  }
+  
+  .logoContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+   
+  }
+  
+  /* Social Icons */
+  .socialIcons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .socialIcons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcons img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Buttons */
+  .buttonGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .buttonGroup button {
+    background-color: #04446e;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 180px;
+  }
+  
+  .buttonGroup button:hover {
+    background-color: #033355;
+  }
+  
+  /* General footer sections */
+  .footerSection {
+    text-align: left;
+    min-width: 180px;
+  }
+  
+  .footerSection h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Footer text */
+  .footerText {
+    width: 100%;
+    text-align: right;
+   margin:0;
+    font-size: 16px;
+    background-color: #c6e8ff;
+  
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .rightSection {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .rightSection {
+      grid-template-columns: repeat(1, 1fr); /* Stack sections on mobile */
+      text-align: center;
+    }
+  }
+  
