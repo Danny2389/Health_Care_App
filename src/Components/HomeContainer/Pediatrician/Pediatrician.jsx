@@ -19,7 +19,7 @@ export const Pediatrician = () => {
 
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.heading}><span style={{color:"#0265A7",fontSize:"60px"}}>eAsha</span> is dedicated to provide best treatment.</h1>
+      <h1 className={styles.heading}><span style={{color:"#0265A7",fontSize:"60px"}}>CNAME</span> is dedicated to provide best treatment.</h1>
       <p className={styles.paragraph}>
         A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring 
         which I enjoy with my whole heart. <br></br>I am alone, and feel the charm of existence in this spot, 

@@ -7,7 +7,7 @@ export const Menu = () => {
     <nav className={styles.navbar}>
       {/* Left Section - Logo */}
       <div className={styles.logo}>
-        <img src="/assets/eAshalogo.png" alt="Company Logo" />
+        <img src="/assets/logo.png" alt="Company Logo" />
       </div>
 
       {/* Center Section - Navigation Links */}

@@ -5,7 +5,7 @@ export const WhyChoose = () => {
     <div className={styles.container}>
       {/* Left Side - Card with Content */}
       <div className={styles.leftCard}>
-        <h2>Why Choose eAsha?</h2>
+        <h2>Why Choose CNAME?</h2>
         <ul>
           <li> Easy & Fast Appointments</li>
           <li> Multiple Specialties & Hospitals</li>

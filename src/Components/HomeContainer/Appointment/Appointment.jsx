@@ -13,8 +13,8 @@ export const Appointment = () => {
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia.
         </p>
-        <p>📞 +91 63016680 400</p>
-        <p>📧 ashainfo@gmail.com</p>
+        <p>📞 +91 799XXX XX5</p>
+        <p>📧 email@gmail.com</p>
       </div>
 
       {/* Right Section - Appointment Form */}

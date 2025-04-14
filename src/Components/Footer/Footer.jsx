@@ -9,7 +9,7 @@ export const Footer = () => {
       {/* First Column - Icons & Buttons */}
       <div className={Styles.iconsColumn}>
         <div className={Styles.logoContainer}>
-          <img src="/assets/eAshaop.jpg"  alt="eAsha" />
+          <img src="/assets/op.jpg"  alt="op" />
         </div>
         <div className={Styles.socialIcons}>
           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
@@ -27,7 +27,7 @@ export const Footer = () => {
         </div>
         <div className={Styles.buttonGroup}>
           <button className={Styles.appointmentButton}>Book Appointment</button>
-          <a href="https://wa.me/916301680400" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/91799XXXXXX5" target="_blank" rel="noopener noreferrer">
             <button className={Styles.whatsappButton}>Connect on WhatsApp</button>
           </a>
         </div>

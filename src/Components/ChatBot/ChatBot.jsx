@@ -58,7 +58,7 @@ const ChatBot = () => {
         <div className="card">
           <div className={styles.cardHeader}>
             <img src="https://tse3.mm.bing.net/th?id=OIP.9FiyyosVP_HRin9lCM7nOwHaHa&pid=Api&P=0&h=220" alt="Bot" />
-            eAsha AI - Medical Assistant
+            CNAME AI - Medical Assistant
           </div>
           <div className={styles.msgCardBody}>
             {messages.map((msg, index) => (

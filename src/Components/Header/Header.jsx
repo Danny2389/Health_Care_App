@@ -7,9 +7,9 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.contact}>
         <span className={`${styles.icon} ${styles.flipIcon}`}><AiOutlinePhone /></span>
-        <span>+91 6301680400</span>
+        <span>+91 799XXXXX5</span>
         <span className={styles.icon}><AiOutlineMail /></span>
-        <span>ashainfo@gmail.com</span>
+        <span>email@gmail.com</span>
       </div>
 
       <div className={styles.auth}>

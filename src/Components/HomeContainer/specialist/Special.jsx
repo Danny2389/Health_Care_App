@@ -43,7 +43,7 @@ export const Special = () => {
       <section className={styles.container}>
         {/* Left Side - Text Content */}
         <div className={styles.textContainer}>
-          <p className={styles.welcome}>Welcome to eAsha!</p>
+          <p className={styles.welcome}>Welcome to CNAME!</p>
           <h1 className={`${styles.meet} ${styles.fadeInDown}`}>Meet Our</h1>
           <h1 className={`${styles.specialist} ${styles.fadeInDown}`}>Specialist</h1>
         </div>
